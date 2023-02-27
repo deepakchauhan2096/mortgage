@@ -1,0 +1,33 @@
+#div1 {
+  width: 100%;
+  height: 100vh;
+  padding: 10px;
+  border: 1px solid transparent;
+}
+
+.input-drag-area input {
+  margin: 10px 0;
+}
+
+.container-drag {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.items {
+  aspect-ratio: 1/0.5;
+  width: 50px;
+  background-color: #5089C6;
+  color: #fff;
+  margin: 5px;
+}
+
+.dropArea {
+  /* border: 1px solid blue; */
+  aspect-ratio: 1/3;
+  padding: 0 10px;
+}
+
+.dropArea input {
+  margin: 10px 0px;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root{
+  --fonts:0.9rem;
+  --bg:#EBF5FB;
+  --color:#5DADE2;
+}
+
+
+
+.fa{
+  padding-right: 5px;
+}
+
+.sidebarbox {
+  height: 100%;
+  width: 100%;
+}
+
+.main_side{
+  overflow: hidden;
+  list-style: none;
+  text-decoration: none;
+  padding-inline-start: 0;
+  padding: 0 15px 15px 15px;
+}
+
+.main_side li {
+  border-radius: 13px;
+  background: transparent;
+  /* border-bottom: 1px solid rgb(222, 221, 221); */
+  
+}
+.main_side li:hover.main_side a {
+  background: #2a4365;
+  color: white;
+}
+
+.main_side a{
+text-decoration: none;
+text-align: left;
+color: rgb(134, 131, 131);
+font-size: 0.9rem;
+margin: 0;
+padding: 10px;
+font-weight: 500;
+}
+
+.main_side a:hover{
+  color: var(--color);
+  background-color: var(--bg);
+  border-radius: 13px;
+}
+
+.drop-heading{
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 23px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  color: rgb(148, 148, 148);
+  /* padding-bottom: none; */
+}
+
+
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.3s;
+  border-radius: 13px;
+}
+.ripple:hover {
+  border-radius: 13px;
+  background: #f7f7f7 radial-gradient(circle, transparent 1%, #f7f7f7 1%) center/15000%;
+}
+.ripple:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+  border-radius: 13px;
+}
+
+
+
+
+
